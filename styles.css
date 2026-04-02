@@ -1,0 +1,94 @@
+body{
+  background-color: #e1f7d5;
+}
+
+#textsContainer{
+  background-color: #ffbdbd;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 90vw;
+  height: 13vh;
+  top: 6vh;
+  left: 5vw;
+  padding: 1vh;
+}
+
+#titleContainer{
+  background-color: #c9c9ff;
+  flex: 0.75;
+  height: 6vh;
+  text-align: center;
+}
+
+#titleContainer h2{
+  margin-top: 1vh;
+}
+
+#artistContainer{
+  background-color: #ffffff;
+  flex: 0.75;
+  height: 6vh;
+  text-align: center;
+}
+
+#albumCoversContainer{
+  background-color: #f1cbff;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 96vw;
+  height: 45vh;
+  bottom: 25vh;
+  left: 1vw;
+  padding: 1vh;
+}
+
+#albumCover{
+  width: 40vh;
+  height: 40vh;
+  position: relative;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#progressBarContainer{
+  background-color: #fd8fbf;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 75vw;
+  height: 3vh;
+  bottom: 20vh;
+  left: 12vw;
+  border-radius: 200px;
+}
+
+#progressBar {
+  background-color: #c9c9ff;
+  width: 0%;
+  height: 100%;
+  border-radius: 200px;
+  pointer-events: none;
+}
+
+
+#controlsContainer {
+  background-color: #b0c4de;
+  position: absolute;
+  bottom: 5vh;
+  left: 5vw;
+  width: 90vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+}
+
+
+
